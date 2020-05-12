@@ -15,7 +15,7 @@ class Scraper:
             if url is None:
                 continue
             if "articles" in url:
-                print("\n" + url)
+                print("\n" +  "https://news.google.com/" + url)
 
 news = "https://news.google.com/topstories?hl=ja&gl=JP&ceid=JP:ja"
 Scraper(news).scrape()
